@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+from sqlalchemy import create_engine
 import os
 
 load_dotenv()
@@ -11,4 +12,9 @@ DATABASE_URL = (
     f"{os.getenv('DB_PORT')}/"
     f"{os.getenv('DB_NAME')}"
     "?sslmode=require"
+)
+
+engine = create_engine(
+    DATABASE_URL,
+    pool_pre_ping=True,
 )
