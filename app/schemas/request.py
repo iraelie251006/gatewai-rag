@@ -9,7 +9,7 @@ class QueryRequest(BaseModel):
     )
 
     top_k: int = Field(
-        default=5,
+        default=3,
         ge=1,
         le=20,
         description="Number of retrieved chunks"
