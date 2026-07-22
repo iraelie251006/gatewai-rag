@@ -1,7 +1,7 @@
 [project]
 name = "gatewai-rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "Production-oriented RAG pipeline for Gatewai document ingestion, chunking, Redis-backed vector retrieval, and LLM synthesis via LlamaIndex. Built as the retrieval layer for a multi-provider LLM gateway."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
