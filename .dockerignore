@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+tasks.db
+.git/
+.gitignore
+README.md
+k8s/
