@@ -24,4 +24,4 @@ Production-oriented RAG pipeline for Gatewai-RAG document ingestion, chunking, R
 
 - 📄 Document ingestion pipeline
 - ✂️ Intelligent document chunking
-
+- 🧠 Semantic embedding generation
