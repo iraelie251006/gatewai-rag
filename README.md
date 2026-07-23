@@ -27,4 +27,4 @@ Production-oriented RAG pipeline for Gatewai-RAG document ingestion, chunking, R
 - 🧠 Semantic embedding generation
 - 🔍 Redis vector search
 - 🎯 High-quality semantic retrieval
-
+- 🤖 LLM-powered response synthesis using LlamaIndex
