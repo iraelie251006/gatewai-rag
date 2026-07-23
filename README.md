@@ -19,3 +19,9 @@
 </p>
 
 Production-oriented RAG pipeline for Gatewai-RAG document ingestion, chunking, Redis-backed vector retrieval, and LLM synthesis via LlamaIndex. Built as the retrieval layer for a multi-provider LLM gateway.
+
+## ✨ Features
+
+- 📄 Document ingestion pipeline
+- ✂️ Intelligent document chunking
+
